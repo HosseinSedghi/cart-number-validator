@@ -5,6 +5,7 @@ from bank_codes import bank_codes
 test1_code = '5894631165640921'
 test2_code = '6274129005473742'
 test3_code = '6277603023438041'
+test4_code = '6037992921131316'
 
 class Detector():
 	def __init__(self, number):
@@ -53,7 +54,7 @@ class Detector():
 
 
 if __name__ == "__main__":
-	cart = Detector(test3_code)
+	cart = Detector(test4_code)
 
 	print('length : ', cart.valid_length())
 	print('is integer : ', cart.is_valid_type())
